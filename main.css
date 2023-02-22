@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1, 
+section h2 {
+font-family: 'Seymour One', sans-serif;
+}
+
+body, 
+header p, 
+header h4,
+section h3,
+form button,
+input,
+textarea  {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    padding: 20px 0;
+    background-image: linear-gradient(to top, rgb(2, 31, 2), rgb(50, 139, 50));
+    color: rgb(201, 247, 201);
+    min-height: 120px;
+}
+
+header h1, section h2 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 12px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: rgb(201, 247, 201);
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    background-color: rgb(11, 97, 11);
+    border-radius: 5px;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+header h4 {
+    text-align: center;
+    font-size: 16px;
+}
+
+section .help h4 {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container p {
+    text-align: justify;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.pagamento h3 {
+    margin-top: 100px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+section {
+    padding: 28px 0;
+}
+
+section h2 {
+    margin-bottom: 14px;
+
+}
+
+section {
+    color: rgb(8, 80, 8)
+}
+
+section p {
+    margin-bottom: 6px;
+}
+
+.store-front {
+    margin-right: 30px;
+    border-radius: 10px;
+    width: 630px;
+}
+
+.store-front2 {
+    width: 300px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+    
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-methods h3 {
+    padding-bottom: 8px;
+}
+
+.contact-methods p {
+    padding-bottom: 40px;
+}
+
+.input1 input, 
+form textarea, 
+.input1 form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: none;
+    height: 120px;
+}
+
+.input2 input, button {
+    width: 260px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 6px;
+    margin-right: 8px;
+}
+
+section h3 {
+    margin-bottom: 14px;
+}
+
+form button {
+    background-color: rgb(8, 80, 8);
+    color: rgb(232, 245, 232);
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(15, 150, 15);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(8, 80, 8);
+}
+
+footer {
+    background-color: rgb(8, 80, 8);
+    color: rgb(201, 247, 201);
+    padding: 16px 0;
+}
